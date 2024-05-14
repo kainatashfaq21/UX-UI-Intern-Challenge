@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Class Booking</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div class="logo-container">
+        <img src="https://cdn-icons-png.freepik.com/256/13544/13544609.png?ga=GA1.1.1911224975.1698336729&semt=ais_hybrid" alt="Fitness Class Logo">
+        <h1>Fitness Class Booking</h1>
+    </div>
+    
+    <div class="container">
+        <form id="signup-form">
+            <label for="full-name">Full Name</label>
+            <input placeholder="Full Name" type="text" id="full-name" required>
+
+            <label for="email">Email</label>
+            <input placeholder="Email" type="email" id="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input placeholder="Phone Number" type="tel" id="phone">
+
+            <label for="class-type">Preferred Class Type</label>
+            <select id="class-type">
+                <option value="Yoga">Yoga</option>
+                <option value="Pilates">Pilates</option>
+                <option value="Zumba">Zumba</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <label for="class-date">Preferred Class Date</label>
+            <input type="date" id="class-date">
+
+            <button type="submit" class="button">Sign Up</button>
+
+            <div class="continue-buttons">
+                <button type="button" id="google-btn"><i class="fab fa-google"></i></button>
+                <button type="button" id="tiktok-btn"><i class="fab fa-tiktok"></i></button>
+                <button type="button" id="facebook-btn"><i class="fab fa-facebook"></i></button>
+            </div>
+
+            <p class="login-link">Already have an account? <a href="#">Login</a></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
